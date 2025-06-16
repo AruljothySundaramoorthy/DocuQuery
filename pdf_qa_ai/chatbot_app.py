@@ -30,7 +30,7 @@ def chat_interface(user_input, history):
     return history
 
 with gr.Blocks() as demo:
-    gr.Markdown("# 📄 AskMyPDF: Chat with your PDF")
+    gr.Markdown("# 📄 DocuQuery: Chat with your PDF")
     file_input = gr.File(label="Upload a PDF", file_types=[".pdf"])
     load_button = gr.Button("Load PDF")
     status = gr.Textbox(label="Status", interactive=False)
