@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Model and cache folders
+cache/
+models/
+*.ckpt
+
+# Hugging Face transformers & datasets cache
+~/.cache/
+~/.huggingface/
+~/.torch/
+*.pt
+*.bin
+
+# PDF files (optional - keep if you don't want to commit test PDFs)
+*.pdf
+
+# Python virtualenv + pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MacOS & Linux
+.DS_Store
+Thumbs.db
+
+# Gradio or Streamlit artifacts
+gradio_cached_examples/
