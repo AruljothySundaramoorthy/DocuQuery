@@ -2,3 +2,4 @@ sentence-transformers
 pdfplumber
 faiss-cpu
 scikit-learn
+gradio
